@@ -32,3 +32,19 @@ function configure(){
 	add_theme_support( 'post-formats', array( 'image', 'video', 'quote' ) );
 }
 add_action( 'after_setup_theme', 'configure', 0 );
+
+// Register sidebars
+function create_sidebars(){
+	register_sidebar(
+		array(
+			'name'			=> 'Archive Sidebar',
+			'id' 			=> 'sidebar-archive',
+			'description'   => 'This is the Archive Sidebar. You can add your widgets here.',
+			'before_widget' => '<section class="widget">',
+			'after_widget' 	=> '</section>',
+			'before_title' 	=> '<h2 class="widget_title">',
+			'after_tile' 	=> '</h2>'
+		)
+	);
+}
+add_action( 'widgets_init', 'create_sidebars' );
