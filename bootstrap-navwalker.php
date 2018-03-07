@@ -11,6 +11,7 @@
  * License: GNU General Public License v3 or later
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
+
 class Bootstrap_NavWalker extends Walker_Nav_Menu {
 
 	// Create the $current_menu_id_bootstrap variable for generating the current menu id
