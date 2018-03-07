@@ -1,0 +1,2 @@
+# simpletheme
+Wordpress Theme
