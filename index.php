@@ -6,7 +6,7 @@
 		<main>
 			<section class="slide">
 				<div class="container-fluid">
-					<div>Slide</div>
+					<div>Slide-INDEX</div>
 				</div>
 			</section>
 			<section class="categories">
@@ -14,7 +14,7 @@
 					<div class="row">Categories</div>
 				</div>
 			</section>
-			<section class="middle-area">
+			<section class="content-area">
 				<div class="container">
 					<div class="row">
 						<div class="posts col-md-9">
@@ -22,7 +22,7 @@
 							<?php
 							if( have_posts() ):
 								while( have_posts() ): the_post();
-									get_template_part( 'template-parts/content', get_post_format() );
+									get_template_part( 'template-parts/post/content', get_post_format() );
 								endwhile;
 							else:
 							?>
@@ -31,7 +31,9 @@
 
 							<?php endif; ?>
 						</div>
-						<aside class="sidebar col-md-3">Sidebar</aside>
+						<aside class="sidebar col-md-3">
+							<?php get_sidebar(); ?>
+						</aside>
 					</div>
 				</div>
 			</section>

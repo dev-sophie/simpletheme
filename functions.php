@@ -1,15 +1,20 @@
 <?php
 // Include style sheet and script files
 function load_scripts(){
+	// Load jQuery and Bootstrap JavaScript
 	wp_enqueue_script( 'bootstrap-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', array( 'jquery' ), '4.0.0', true );
-	wp_enqueue_style( 'bootstrap-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', array(), '4.0.0', 'all' );
 
-	wp_enqueue_style( 'template', get_template_directory_uri() . '/css/template.css', array(), '1.0', 'all' );
+	// Load theme styles
+	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/assets/css/bootstrap-custom.css', array(), '4.0.0', 'all' );
+	wp_enqueue_style( 'simpletheme-style', get_stylesheet_uri() );
+
+	// Font Awesome
+	wp_enqueue_script( 'font-awesome', 'https://use.fontawesome.com/releases/v5.0.8/js/all.js', array(), '5.0.8' );
 }
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 // Load Bootstrap-NavWalker extension to use Bootstrap menu style
-require get_template_directory() . '/bootstrap-navwalker.php';
+require get_template_directory() . '/inc/bootstrap-navwalker.php';
 
 // Main configuration
 function configure(){
@@ -48,3 +53,39 @@ function create_sidebars(){
 	);
 }
 add_action( 'widgets_init', 'create_sidebars' );
+
+
+
+// // ~~~~~~~~~~~~~~~~~~~~~ Add Image Title - Crunchify.com Tips ~~~~~~~~~~~~~~~~~~~~~~~~
+// function crunchify_add_image_title( $html, $id ) {
+// 	$crunchify_attach = get_post($id);
+// 	if (strpos($html, "title=")) {
+//     		return $html;
+//     	}
+//     	else {
+// 		$crunchifyTitle = esc_attr($crunchify_attach->post_title);
+// 		return str_replace('<img', '<img title="' . $crunchifyTitle . '" '  , $html);      
+// 	}
+// }
+// add_filter( 'media_send_to_editor', 'crunchify_add_image_title', 15, 2 );
+ 
+// function crunchify_add_image_title_gallery( $content, $id ) {
+// 	$crunchify_title = get_the_title($id);
+// 	return str_replace('<a', '<a title="' . esc_attr($crunchify_title) . '" ', $content);
+// }	
+// add_filter('wp_get_attachment_link', 'crunchify_add_image_title_gallery', 10, 4);
+
+
+// function addImageAttributes($content)
+// {
+//   $content  = mb_convert_encoding($content, 'HTML-ENTITIES', "UTF-8");
+//   $document = new \DOMDocument();
+//   libxml_use_internal_errors(true);
+//   $document->loadHTML(utf8_decode($content));
+//   $images = $document->getElementsByTagName('img');
+//   foreach ($images as $image) {
+//       $image->setAttribute('title', 'tesst');
+//   }
+//   return $document->saveHTML();
+// }
+// add_filter( 'the_content', 'addImageAttributes');

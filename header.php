@@ -12,7 +12,7 @@
 	<header>
 		<section class="top-bar border-bottom navbar-light bg-light">
 			<div class="container">
-				<nav class="row navbar navbar-expand-sm align-items-start">
+				<nav class="row navbar navbar-expand-sm align-items-start align-items-sm-center">
 					<?php wp_nav_menu(
 						array(
 							'theme_location' => 'top_menu',

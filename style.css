@@ -13,3 +13,67 @@ Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-rea
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+.top-menu{
+	background-color: yellow;
+}
+
+.language-icons{
+	background-color: orange;
+}
+
+.social-media-icons{
+	background-color: pink;
+}
+
+.main-menu{
+	background-color: blue;
+}
+
+.slide{
+	background-color: green;
+}
+
+.categories{
+	background-color: lightblue;
+}
+
+.posts{
+	background-color: grey;
+}
+
+.sidebar{
+	background-color: lightgrey;
+}
+
+.instagram-image{
+	background-color: yellow;
+}
+
+.footer-menu{
+	background-color: orange;
+}
+
+.copyright{
+	background-color: pink;
+}
+
+
+/* Header */
+section.logo{
+	margin-bottom: 0;
+}
+
+/* Posts */
+article.format-quote .post-content{
+	background-color: rgb(241, 202, 14);
+	color: white;
+}
+
+article.format-quote .post-content .blockquote-footer{
+	color: white;
+}
+
+article.format-quote .post-content .blockquote{
+    font-size: 1.4rem;
+}
