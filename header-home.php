@@ -8,7 +8,10 @@
 
 	<?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
+
+<?php $backgroundImage = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); ?>
+
+<body <?php body_class( array( 'text-center', 'img-fluid',  'full-background-image' ) ); ?> style="background-image: url('<?php echo $backgroundImage[0]; ?>');">
 	<header>
 		<section class="top-bar border-bottom navbar-light bg-light">
 			<div class="container">
@@ -48,40 +51,6 @@
 					); ?>
 					<div class="dropdown-divider d-sm-none d-block"></div>
 				</nav>
-			</div>
-		</section>
-		<section class="logo jumbotron text-center">
-			<div class="container-fluid">
-				<h5><?php echo esc_attr( get_option( 'custom_general_settings' )['typewriter_pretext'] ); ?></h5>
-				<h1 class="jumbotron-heading"><?php echo esc_attr( get_option( 'blogname' ) ); ?></h1>
-				<p class="lead text-muted"><?php echo esc_attr( get_option( 'custom_general_settings' )['typewriter_static_text'] ); ?>
-					<strong class="typewrite" data-period="2000" data-type='[ <?php echo esc_attr( get_option( 'custom_general_settings' )['typewriter_text'] ); ?> ]'>
-						<span class="wrap"></span>
-					</strong>
-				</p>
-			</div>
-		</section>
-		<section class="menu-bar navbar-light bg-light">
-			<div class="container">
-				<nav class="main-menu navbar navbar-expand-sm">
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarContent">
-						<?php wp_nav_menu(
-						array(
-							'theme_location' => 'main_menu',
-							'menu_id'        => 'main-menu',
-							'container'      => false,
-							'depth'          => 2,
-							'menu_class'	 => 'main-menu navbar-nav mx-auto w-100 justify-content-center',
-							'walker'         => new Custom_Frontend_NavWalker(),
-							'fallback_cb'    => 'Custom_Frontend_NavWalker::fallback'
-						)
-					); ?>
-					</div>
-			  </div>
-			</nav>
 			</div>
 		</section>
 	</header>

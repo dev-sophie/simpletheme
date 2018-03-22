@@ -37,11 +37,14 @@ Template Name: Archive Template
 
 
 							<?php
+
 							$category = new WP_Query( 'post_type=post&cat=5' );
+							
 							if( $category->have_posts() ):
 								while( $category->have_posts() ): $category->the_post();
 									get_template_part( 'template-parts/post/content', get_post_format() );
 								endwhile;
+								// It's important to reset the wp query
 								wp_reset_postdata();
 							else:
 							?>

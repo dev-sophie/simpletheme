@@ -12,7 +12,19 @@
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
 
-class Bootstrap_NavWalker extends Walker_Nav_Menu {
+/**
+ * MenuIcons NavWalker
+ * Class Name: MenuIcons_NavWalker
+ * Author: Bishal Napit
+ * Author URI: https://napitwptech.com/
+ * GitHub URI: https://github.com/mebishalnapit/bootstrap-navwalker/
+ * Description: A custom WordPress nav walker class to implement the Bootstrap 4 navigation style in a custom WordPress
+ * Bootstrap based theme using the WordPress built in menu manager.
+ * License: GNU General Public License v3 or later
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+class Custom_Frontend_NavWalker extends Walker_Nav_Menu {
 
 	// Create the $current_menu_id_bootstrap variable for generating the current menu id
 	protected $current_menu_id_bootstrap;
@@ -132,6 +144,11 @@ class Bootstrap_NavWalker extends Walker_Nav_Menu {
 		 * Add class '.nav-item' inside <li> tag for Bootstrap
 		 */
 		$classes[] = 'nav-item';
+
+		/**
+		 * Add class '.text-center' inside <li> tag for Bootstrap
+		 */
+		$classes[] = 'text-center';
 
 		/**
 		 * Add class '.active' inside <li> tag for Bootstrap active menu as well as for the parent menu, which have the active sub-menu
@@ -301,9 +318,19 @@ class Bootstrap_NavWalker extends Walker_Nav_Menu {
 		 */
 		$title = apply_filters( 'nav_menu_item_title', $title, $item, $args, $depth );
 
+		if( $item->showOnlyIconOnAll == "true" ){
+			$classes = "link-title d-none";
+		}else{
+			if( $item->showOnlyIconOnSmall == "true" ){
+				$classes = "link-title d-none d-md-block";
+			}else{
+				$classes = "link-title";
+			}
+		}
+
 		$item_output = $args->before;
-		$item_output .= '<a' . $attributes . '>';
-		$item_output .= $args->link_before . $title . $args->link_after;
+		$item_output .= '<a' . $attributes . '>' . $item->icon;
+		$item_output .= $args->link_before . '<span class="' . $classes . '">' . $title . '</span>' . $args->link_after;
 		$item_output .= '</a>';
 		$item_output .= $args->after;
 
@@ -417,3 +444,5 @@ class Bootstrap_NavWalker extends Walker_Nav_Menu {
 	}
 
 }
+
+?>

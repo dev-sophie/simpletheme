@@ -23,8 +23,8 @@
 								'container'      => false,
 								'depth'          => 2,
 								'menu_class'	 => 'footer-menu navbar-nav mx-auto mr-sm-0',
-								'walker'         => new Bootstrap_NavWalker(),
-								'fallback_cb'    => 'Bootstrap_NavWalker::fallback'
+								'walker'         => new Custom_Frontend_NavWalker(),
+								'fallback_cb'    => 'Custom_Frontend_NavWalker::fallback'
 							)
 						); ?>
 					</div>

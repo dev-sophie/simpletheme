@@ -15,43 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "assets/scss/bootstrap-custom.scss",
-			"settings":
-			{
-				"buffer_size": 81,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/me/AppData/Roaming/Sublime Text 3/Packages/User/SASS-Wordpress.sublime-build",
-			"settings":
-			{
-				"buffer_size": 312,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "untitled.sublime-build"
-			}
-		},
-		{
-			"file": "functions.php",
-			"settings":
-			{
-				"buffer_size": 3028,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "archive-template.php",
-			"settings":
-			{
-				"buffer_size": 1305,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/SASS Build/SASS.sublime-build",
 	"build_system_choices":
@@ -105,39 +68,62 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/sophie-senftleben",
-		"/C/xampp/htdocs/sophie-senftleben/wp-content",
-		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/css",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/images",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/js",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/scss",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/inc",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/template-parts",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/template-parts/post"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/.gitignore",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/scss/bootstrap-custom.scss",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/functions.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/header.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/js/typewriter.js",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/js/typist.js",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/style.css",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/inc/custom-frontend-navwalker.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/inc/custom-backend-navwalker.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/footer.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/css/bootstrap-custom.css",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/wpml-config.xml",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/plugins/jafty-top-nav/menu-item-custom-fields/walker-nav-menu-edit.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/plugins/simplemenuicons/menuicons_navwalker.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/inc/backend-navwalker.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/plugins/simplemenuicons/simplemenuicons.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/plugins/simplemenuicons_2/simplemenuicons_2.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/plugins/jafty-top-nav/jafty-top-nav.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/plugins/jafty-top-nav/jafty-custom-nav-fields.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/plugins/jafty-top-nav/menu-item-custom-fields/menu-item-custom-fields.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/inc/custom-navwalker-1.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/inc/custom-navwalker-2.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/sidebar.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/template-parts/post/content-featured.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/archive-template.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/plugins/simplemenuicons/custom_walker.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/inc/menuicons-navwalker.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/inc/menuicons_navwalker.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/plugins/index.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/inc/edit_custom_walker.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/inc/custom_walker.php",
+		"/C/Users/me/AppData/Roaming/Sublime Text 3/Packages/User/SASS-Wordpress.sublime-build",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/README.md",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/.gitignore",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/css/template.css",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/index.php",
-		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/header.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/css/template.css",
-		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/archive-template.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/scss/style.scss",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/template-parts/content-image.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/template-parts/content-quote.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/template-parts/content-video.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/template-parts/content.php",
-		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/sidebar.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/LICENSE",
-		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/README.md",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/screenshot.png",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/bootstrap-navwalker.php",
-		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/footer.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/twentyseventeen/template-parts/post/content.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/twentyfifteen/author-bio.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/twentyfifteen/content-link.php",
@@ -156,11 +142,11 @@
 	],
 	"find":
 	{
-		"height": 47.0
+		"height": 92.0
 	},
 	"find_in_files":
 	{
-		"height": 208.0,
+		"height": 288.0,
 		"where_history":
 		[
 		]
@@ -170,6 +156,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"{\n",
+			"}\n",
+			"_menu_item_icon",
+			"icon",
+			"<li",
+			".top-menu",
+			"icon",
+			"MenuIcons_NavWalker",
+			"Bootstrap_NavWalker",
+			"Walker_Nav_Menu_Edit_Custom",
+			"_menu_item_icon",
+			"jafty-top-nav",
+			"subtitle",
+			"rc_simple_menu_icons",
+			"rc_sweet_custom_menu",
+			"sweet_custom_menu",
+			"start_lvl",
+			"subtitle",
 			"twentyseventeen_fonts_url",
 			"2",
 			"\">",
@@ -192,129 +196,14 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assets/scss/bootstrap-custom.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 81,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								81,
-								81
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/me/AppData/Roaming/Sublime Text 3/Packages/User/SASS-Wordpress.sublime-build",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 312,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								256,
-								256
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3028,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2543,
-								2543
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "archive-template.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1305,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1055,
-								1055
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 486.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 47.0
+		"height": 82.0
 	},
 	"input":
 	{
@@ -355,7 +244,7 @@
 	"project": "simpletheme.sublime-project",
 	"replace":
 	{
-		"height": 86.0
+		"height": 156.0
 	},
 	"save_all_on_build": true,
 	"select_file":

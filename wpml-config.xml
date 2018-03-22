@@ -1,0 +1,9 @@
+<wpml-config>
+  <admin-texts>
+    <key name="custom_general_settings">
+      <key name="typewriter_pretext"/>
+      <key name="typewriter_static_text"/>
+      <key name="typewriter_text"/>
+    </key>
+  </admin-texts>
+</wpml-config>

@@ -1,5 +1,37 @@
-article.format-image img{
+article.format-image img {
 	@extend .img-fluid;	
+}
+
+@media (max-width: 576px){
+	#about-menu > li,
+	#languages-menu > li{
+		padding-right: 10px;
+	}
+
+	#about-menu > li:last-child,
+	#languages-menu > li:last-child{
+		padding-right: 0;
+	}
+}
+
+#top-navbar .dropdown-divider{
+	width: 88%;
+	margin-left: 2%;
+    margin-top: 38px;
+    position: absolute;
+}
+
+.full-background-image{
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+}
+
+#front-page-content{
+	min-height: 85vh;
 }
 
 @import "bootstrap/bootstrap"
