@@ -9,9 +9,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<?php $backgroundImage = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); ?>
-
-<body <?php body_class( array( 'text-center', 'img-fluid',  'full-background-image' ) ); ?> style="background-image: url('<?php echo $backgroundImage[0]; ?>');">
+<body <?php body_class(); ?>>
 	<header>
 		<section class="top-bar border-bottom navbar-light bg-light">
 			<div class="container">

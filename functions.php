@@ -14,6 +14,9 @@ function load_scripts(){
 
 	// Text typing effect
 	wp_enqueue_script( 'typewriter', get_template_directory_uri() . '/assets/js/typewriter.js', array(), '20171214' );
+
+	// Parallax
+	wp_enqueue_script( 'parallax', get_template_directory_uri() . '/assets/js/parallax.min.js', array(), '1.5.0' );
 }
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
