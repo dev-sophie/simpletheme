@@ -15,15 +15,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "assets/scss/bootstrap-custom.scss",
-			"settings":
-			{
-				"buffer_size": 1102,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/SASS Build/SASS.sublime-build",
 	"build_system_choices":
@@ -89,12 +80,12 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/scss/bootstrap-custom.scss",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/header-home.php",
+		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/front-page.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/style.css",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/functions.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/footer-home.php",
-		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/scss/bootstrap-custom.scss",
-		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/front-page.php",
-		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/header-home.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/header.php",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/js/typewriter.js",
 		"/C/xampp/htdocs/sophie-senftleben/wp-content/themes/simpletheme/assets/js/typist.js",
@@ -154,7 +145,7 @@
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 66.0
 	},
 	"find_in_files":
 	{
@@ -208,44 +199,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "assets/scss/bootstrap-custom.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1102,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1102,
-								1102
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 70.0
+		"height": 66.0
 	},
 	"input":
 	{
@@ -286,7 +247,7 @@
 	"project": "simpletheme.sublime-project",
 	"replace":
 	{
-		"height": 132.0
+		"height": 124.0
 	},
 	"save_all_on_build": true,
 	"select_file":

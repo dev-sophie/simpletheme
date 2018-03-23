@@ -1,5 +1,5 @@
 /**
- Menua
+ Menus
 *************/
 @media (max-width: 576px) {
   #about-menu > li,
@@ -42,10 +42,6 @@
   color: rgba(255, 255, 255, 0.8);
   font-size: 60px;
   text-align: center;
-}
-
-.jumbotron {
-  margin-bottom: 0;
 }
 
 /**
